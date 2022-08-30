@@ -3,11 +3,15 @@ echo "ATUALIZANDO SERVIDOR LINUX"
 sudo apt-get update
 sudo apt-get upgrade -y
 
+
 echo "INSTALANDO O SERVIDOR WEB....."
 sudo apt-get install apache2 -y
 sudo apt-get install php zip libapache2-mod-php php-gd php-json php-mysql php-curl php-mbstring php-intl php-imagick php-xml php-zip php-mysql -y
 
+
+
 echo "BAIXANDO NEXTCLOUD...."
+cd /tmp
 wget https://download.nextcloud.com/server/prereleases/nextcloud-25.0.0beta2.zip
 sudo unzip nextcloud*.zip
 
