@@ -18,6 +18,7 @@ sudo unzip nextcloud*.zip
 echo "INSTALANDO NEXTCLOUD"
 sudo mv nextcloud/* /var/www/html/
 sudo chown -R www-data:www-data /var/www/html/
+cd /
 
 echo "INICIANO O ISTEMA"
 sudo a2enmod rewrite headers env dir mime
