@@ -12,7 +12,7 @@ sudo apt-get install php zip libapache2-mod-php php-gd php-json php-mysql php-cu
 
 echo "BAIXANDO NEXTCLOUD...."
 cd /tmp
-wget https://download.nextcloud.com/server/prereleases/nextcloud-25.0.0beta2.zip
+wget https://download.nextcloud.com/server/prereleases/nextcloud-25.0.0rc3.zip
 sudo unzip nextcloud*.zip
 
 echo "INSTALANDO NEXTCLOUD"
