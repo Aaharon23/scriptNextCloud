@@ -10,7 +10,7 @@ sudo apt-get install php zip libapache2-mod-php php-gd php-json php-mysql php-cu
 
 
 
-echo "BAIXANDO NEXTCLOUD...."
+echo "BAIXANDO NEXTCLOUD....SEMPRE VERIFIQUE A VERSÃO"
 cd /tmp
 wget https://download.nextcloud.com/server/releases/nextcloud-24.0.6.zip
 sudo unzip nextcloud*.zip
