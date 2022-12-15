@@ -1,7 +1,6 @@
 #!/bin/bash
 echo "ATUALIZANDO SERVIDOR LINUX"
 sudo apt-get update
-sudo apt-get upgrade -y
 
 
 echo "INSTALANDO O SERVIDOR WEB....."
