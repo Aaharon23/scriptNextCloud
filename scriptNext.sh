@@ -21,5 +21,5 @@ cd /
 
 echo "INICIANO O ISTEMA"
 sudo a2enmod rewrite headers env dir mime
-sudo sed -i '/^memory_limit =/s/=.*/= 512M/' /etc/php/8.1/apache2/php.ini
+sudo sed -i '/^memory_limit =/s/=.*/= 512M/' /etc/php/7.4/apache2/php.ini
 sudo systemctl restart apache2
